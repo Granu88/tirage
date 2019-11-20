@@ -1,0 +1,20 @@
+.card-body {
+  background-color: #4A4F4E;
+  color: white;
+}
+.row1 {
+  background-color: #6BBF66;
+}
+.fas {
+  font-size: 140px;
+  color: #182B32;
+}
+.rotate {
+  transform: rotate(180deg);
+}
+.container-fluid {
+  background-color: #6BBF66;
+}
+.row2 {
+  margin-top: 5rem;
+}

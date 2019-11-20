@@ -12,13 +12,13 @@ function randomize(tab) {
     return tab;
 }
 
-var tab = ['Tony', 'Yannick', 'David', 'Laura', 'Tristan', 'Max1','Hasna', 'Quentin', 'Rihab', 'Dylan', 'Pierre', 'Max2'];
+var tab = ['Tony', 'Yannick', 'David', 'Laura', 'Tristan', 'MaxL','Hasna', 'Quentin', 'Rihab', 'Dylan', 'Pierre', 'MaxH'];
 tab = randomize(tab);
 console.log(tab);
 
 btn.addEventListener('click' , () => {
   const random = randomize(tab)
-  /**random.forEach((value, key) => {
+  /*random.forEach((value, key) => {
     document.getElementById(place-${key + 1}).innerHTML = value;
   })*/
 
